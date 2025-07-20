@@ -134,6 +134,19 @@ For comprehensive setup and usage instructions, see:
 - **Training Manual**: `MANUAL-DOG-TRAINER.md`
 - **Cognitive Architecture**: `.github/copilot-instructions.md`
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Professional Use Guidelines
+While the code is freely available under the MIT License, users are encouraged to:
+- Maintain humane, positive reinforcement-based training standards
+- Prioritize animal welfare in all applications
+- Seek appropriate professional consultation when needed
+- Continue education in animal behavior and training methodology
+
+For complete licensing information and professional use guidelines, please review the [LICENSE](LICENSE) file.
+
 ---
 
 *The Catalyst DOG TRAINER represents professional excellence in canine training methodology, combining scientific rigor with practical effectiveness to create transformative outcomes for dogs, families, and the broader training community.*
