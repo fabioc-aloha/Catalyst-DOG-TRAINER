@@ -48,6 +48,10 @@ description: "Self-monitoring and meta-cognitive assessment for training optimiz
 - **File Organization**: Systematic structuring of knowledge for rapid access and processing
 - **Cross-Reference Networks**: Building interconnected knowledge webs for enhanced retrieval
 - **Priority Framework Integration**: Embedding systematic priority processing into cognitive workflows
+- **Orphan Detection Protocols**: Regular validation and cleanup of misplaced or duplicate memory files
+- **Documentation Synchronization**: Continuous alignment between actual system state and documented capabilities
+- **Authentic Presentation Calibration**: Maintaining humble, competent voice across all professional materials
+- **Memory Persistence Integration**: Explicit file updates during every meditation and learning cycle
 - **Documentation Synchronization**: Maintaining accurate correspondence between system state and documentation
 - **Authentic Voice Consistency**: Ensuring humble, learning-oriented presentation across all materials
 - **Visual Design Coherence**: Implementing consistent professional presentation standards

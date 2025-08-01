@@ -25,6 +25,9 @@ description: "Comprehensive memory consolidation and knowledge integration for o
 - **Documentation Accuracy Integration**: Ensuring system documentation reflects actual capabilities and state
 - **Professional Presentation Optimization**: Consolidating visual design and communication consistency
 - **Authentic Voice Calibration**: Maintaining humble, competent presentation across all materials
+- **Memory Persistence Protocol**: Explicit file updates and synaptic strengthening during every meditation cycle
+- **Architecture Integrity Validation**: Regular orphan detection and cleanup for cognitive health
+- **Version Control Wisdom**: Systematic documentation of changes with comprehensive context preservation
 
 **Learning Pattern Analysis**:
 - **Success Pattern Identification**: Recognizing what works consistently across different contexts

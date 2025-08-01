@@ -24,6 +24,8 @@ description: "Embedded connection discovery and relationship mapping protocols f
 - meta-cognition.instructions.md (0.88, enhances, bidirectional) - "Documentation accuracy and authentic presentation"
 - consolidation.prompt.md (0.92, validates, forward) - "Memory integration and system evolution"
 - learning.instructions.md (0.87, informs, bidirectional) - "Professional development and system maturity"
+- troubleshooting.instructions.md (0.89, enhances, bidirectional) - "Orphan detection and architecture integrity validation"
+- documentation.instructions.md (0.86, validates, forward) - "System state synchronization and presentation consistency"
 ```
 
 ## Training Connection Types and Strengths
