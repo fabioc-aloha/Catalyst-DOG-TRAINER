@@ -1,0 +1,104 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "github.copilot.enable": {
+      "*": true,
+      "markdown": true,
+      "plaintext": true
+    },
+    "github.copilot.chat.welcomeMessage": "never",
+    "markdown.preview.breaks": true,
+    "markdown.extension.toc.updateOnSave": true,
+    "files.associations": {
+      "*.instructions.md": "markdown",
+      "*.prompt.md": "markdown",
+      "DK-*.md": "markdown"
+    },
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/.git": true,
+      "**/.DS_Store": true
+    },
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": true,
+    "workbench.iconTheme": "vscode-icons",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "*.instructions.md": "$(capture).prompt.md",
+      "DK-*.md": "$(capture)-*.md"
+    },
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.completion.respectVscodeSearchExclude": false
+  },
+  "extensions": {
+    "recommendations": [
+      "GitHub.copilot",
+      "GitHub.copilot-chat",
+      "yzhang.markdown-all-in-one",
+      "shd101wyy.markdown-preview-enhanced",
+      "alefragnani.project-manager",
+      "vscode-icons-team.vscode-icons",
+      "ms-vscode.vscode-json",
+      "redhat.vscode-yaml",
+      "eamodio.gitlens",
+      "streetsidesoftware.code-spell-checker"
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "DOG TRAINER: Validate Cognitive Framework",
+        "type": "shell",
+        "command": "bash",
+        "args": ["-c", "echo '🧠 Validating Catalyst DOG TRAINER Cognitive Framework...' && find .github/instructions -name '*.md' | wc -l && echo 'Training instruction files found'"],
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "DOG TRAINER: Create Training Protocol",
+        "type": "shell",
+        "command": "cp",
+        "args": ["domain-knowledge/DK-TEMPLATE.md", "domain-knowledge/DK-${input:trainingDomain}.md"],
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      },
+      {
+        "label": "DOG TRAINER: Meditate (Consolidate Knowledge)",
+        "type": "shell",
+        "command": "echo",
+        "args": ["🧠 Triggering meta-cognitive consolidation and memory enhancement..."],
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      }
+    ],
+    "inputs": [
+      {
+        "id": "trainingDomain",
+        "description": "Enter training domain (e.g., PUPPY-TRAINING, BEHAVIORAL-MODIFICATION, SERVICE-DOG)",
+        "default": "NEW-TRAINING-DOMAIN",
+        "type": "promptString"
+      }
+    ]
+  }
+}
